@@ -1,0 +1,27 @@
+{
+  "name": "websockets-mongodb-socket-io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/socket-back.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomazlucca/websockets-mongodb-socket-io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomazlucca/websockets-mongodb-socket-io/issues"
+  },
+  "homepage": "https://github.com/thomazlucca/websockets-mongodb-socket-io#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.8.1"
+  }
+}
