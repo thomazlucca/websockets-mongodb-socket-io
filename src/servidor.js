@@ -14,7 +14,7 @@ app.use(express.static(diretorioPublico)); //cria um caminho estatico com o expr
 
 const servidorHttp = http.createServer(app); //cria um servidorhttp no diretorio public
 
-servidorHttp.listen(porta, () => console.log(`Servidor excutando na porta ${porta}`)); //escuta a porta 3000 definida no servidor
+servidorHttp.listen(porta, () => console.log(`Servidor escutando na porta ${porta}`)); //escuta a porta 3000 definida no servidor
 
 const io = new Server(servidorHttp); //cria uma variavel do websocket para utilizar no servidor http
 
